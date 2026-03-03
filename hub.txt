@@ -1,1 +1,5 @@
-
+hub ATAC_hub
+shortLabel ATAC-seq Hub
+longLabel ATAC-seq signal tracks by cell type
+genomesFile genomes.txt
+email aapapaiwannou@gmail.com
