@@ -1,1 +1,74 @@
+track ATAC_supertrack
+superTrack on show
+shortLabel ATAC-seq Signal
+longLabel ATAC-seq Signal Tracks by Cell Type
 
+    track muscs_quiescent
+    parent ATAC_supertrack
+    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135e1e34c5078a3cf96/display?to_ext=bigwig
+    shortLabel MuSCs Quiescent
+    longLabel MuSCs Quiescent ATAC-seq Signal
+    type bigWig
+    visibility full
+    color 93,93,93
+    autoScale on
+
+    track muscs_proliferating
+    parent ATAC_supertrack
+    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135fefb2143b32bbe67/display?to_ext=bigwig
+    shortLabel MuSCs Proliferating
+    longLabel MuSCs Proliferating ATAC-seq Signal
+    type bigWig
+    visibility full
+    color 190,70,64
+    autoScale on
+
+    track myoblasts
+    parent ATAC_supertrack
+    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135fc9db27d2e7d1c5e/display?to_ext=bigwig
+    shortLabel Myoblasts
+    longLabel Myoblasts ATAC-seq Signal
+    type bigWig
+    visibility full
+    color 255,217,61
+    autoScale on
+
+    track myonuclei_typeI
+    parent ATAC_supertrack
+    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721350eaac0fc2734e080/display?to_ext=bigwig
+    shortLabel Myonuclei TypeI
+    longLabel Myonuclei TypeI ATAC-seq Signal
+    type bigWig
+    visibility full
+    color 132,94,194
+    autoScale on
+
+    track myonuclei_typeIIa
+    parent ATAC_supertrack
+    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721359f5ff96947b03395/display?to_ext=bigwig
+    shortLabel Myonuclei TypeIIa
+    longLabel Myonuclei TypeIIa ATAC-seq Signal
+    type bigWig
+    visibility full
+    color 166,150,73
+    autoScale on
+
+    track myonuclei_typeIIb
+    parent ATAC_supertrack
+    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a4721359b68853321323017/display?to_ext=bigwig
+    shortLabel Myonuclei TypeIIb
+    longLabel Myonuclei TypeIIb ATAC-seq Signal
+    type bigWig
+    visibility full
+    color 194,123,160
+    autoScale on
+
+    track myonuclei_rian
+    parent ATAC_supertrack
+    bigDataUrl https://galaxy-main.usegalaxy.org/api/datasets/f9cad7b01a472135ee802a190df8b87c/display?to_ext=bigwig
+    shortLabel Myonuclei Rian+
+    longLabel Myonuclei Rian+ ATAC-seq Signal
+    type bigWig
+    visibility full
+    color 61,133,198
+    autoScale on
